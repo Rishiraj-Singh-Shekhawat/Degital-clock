@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(87, 165, 165);
+  
+   
+}
+.text{
+    font-size: 40px;
+   padding-top: 150px;
+     /* justify-content: center;
+    align-items: center;
+    display: flex; */
+  margin-left: 530px;
+width: 100%;
+white-space: nowrap;
+overflow: hidden;
+animation:textAnimation 10s 0s infinite linear ;
+
+}
+
+@keyframes textAnimation{
+    from{
+        width: 0%;
+    }
+}
+
+.container{
+    width: 40%;
+    height: 200px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.con{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+
+}
+span{
+    font-size: 50px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+#hrs::after{
+    content: "HOURS";
+    font-size: 10px;
+
+}
+#mins::after{
+    content: "MINS";
+    font-size: 10px;
+
+}
+#sec::after{
+    content: "SEC";
+    font-size: 10px;
+
+}
